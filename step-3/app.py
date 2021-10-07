@@ -15,6 +15,10 @@ def main():
     nb_vaccines = job.count_available_vaccines(vaccines)
     print(nb_vaccines)
 
+    print("Earliest used vaccine...")
+    earliest_vacine = job.find_earliest_used_vaccine(vaccines)
+    print(earliest_vacine)
+
     job.stop()
 
 

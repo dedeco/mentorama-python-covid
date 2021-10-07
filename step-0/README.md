@@ -3,6 +3,7 @@
 - Python Version: 3.7
 
 ## Estrutura inicial do projeto
+```
 ├── README.md
 ├── app.py
 ├── data
@@ -20,6 +21,7 @@
 └── tests
     ├── __init__.py
     └── test_pipelines.py
+```
 
 ## Objetivo:
 Implemente o pipeline do PySpark que realiza operações de análise básica nos dados da vacina COVID-19. A amostra de dados para a análise necessária está disponível nos dados na pasta `data`

@@ -2,14 +2,24 @@
 - Spark Version: 3.0.1
 - Python Version: 3.7
 
-## Arquivos somente leitura, não precise alterar esses arquivos:
-- `src/app.py`
-- `src/tests/test_pipeline.py`
-- `src/main/__init__.py`
-- `src/main/base/__init__.py`
-- `src/main/job/__init__.py`
-- `install.sh`
-- `data/country_vaccinations.csv`
+## Estrutura inicial do projeto
+├── README.md
+├── app.py
+├── data
+│   ├── country_vaccinations.csv
+│   └── explore_data.ipynb
+├── main
+│   ├── __init__.py
+│   ├── base
+│   │   └── __init__.py
+│   └── job
+│      ├── __init__.py
+│      └── pipeline.py
+├── pytest.ini
+├── requirements.txt
+└── tests
+    ├── __init__.py
+    └── test_pipelines.py
 
 ## Objetivo:
 Implemente o pipeline do PySpark que realiza operações de análise básica nos dados da vacina COVID-19. A amostra de dados para a análise necessária está disponível nos dados na pasta `data`
@@ -64,17 +74,3 @@ O projeto está parcialmente concluído e existem 4 métodos e uma sessão de at
     | US      | 5000               |
     
 Conclua a implementação de forma que os testes de unidade sejam aprovados durante a execução dos testes. Use os testes de dar para verificar seu progresso enquanto resolve o problema.
-
-## Commands
-- run: 
-```bash
-source venv/bin/activate; python3 src/app.py data/country_vaccinations.csv
-```
-- install: 
-```bash
-bash install.sh; source venv/bin/activate; pip3 install -r requirements.txt
-```
-- test: 
-```bash
-source venv/bin/activate; py.test
-```

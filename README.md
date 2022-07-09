@@ -11,7 +11,7 @@ Implemente o pipeline do PySpark que realiza operações de análise básica nos
   - `total_vaccinations` : número absoluto de imunizações totais no país
   - `vaccines`: nome da vacina (autoridade nacional, organização internacional, organização local)
 
-## Steps:
+## Passos:
 
 * Passo 0 - Início do exercício de criar a pipeline, estrutura inicial -> [ir para](step-0)
 * Passo 1 - Estrutura criada. Sessão Spark criada e a criação do primeiro teste -> [ir para](step-1)

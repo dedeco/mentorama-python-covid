@@ -1,4 +1,4 @@
-# Mentorama 07/10/2021 - Python
+# Exercícios para mentorar pessoas para processar dados de COVID-19 usando PySpark.
 
 * Passo 0 - Início do exercício de criar a pipeline, estrutura inicial -> [ir para](step-0)
 * Passo 1 - Estrutura criada. Sessão Spark criada e a criação do primeiro teste -> [ir para](step-1)

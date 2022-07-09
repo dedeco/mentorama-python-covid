@@ -1,7 +1,7 @@
 # Exercícios para mentorar pessoas para processar dados de COVID-19 usando PySpark.
 
 ## Objetivo:
-Implemente o pipeline do PySpark que realiza operações de análise básica nos dados da vacina COVID-19. A amostra de dados para a análise necessária está disponível nos dados na pasta `data`
+Implemente o pipeline do PySpark que realiza operações de análise básica nos dados da vacina COVID-19. A amostra de dados para a análise necessária está disponível nos dados na pasta `data` dentro de cada step (passo).
 
 - `country_vaccinations.csv` 
   - O arquivo CSV contém os dados da vacina COVID-19 que foram registrados de acordo com o progresso da vacinação em todo o mundo ao longo do tempo.
